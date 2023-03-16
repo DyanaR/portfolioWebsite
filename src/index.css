@@ -1,13 +1,139 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* css variables to avoid repeatition, can be reusued */
+:root{ 
+    --color-white: #fff;
+    --color-primary: rgb(255,147,1);
+    --color-primary-variant: rgba(255,147,1, 0.4);
+    --color-bg: #000000;
+    --color-bg-variant: #0B0B13;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 400ms ease;
+    --transition2: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 98%;
 }
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    position: relative;
+}
+
+ /* ==================== GENERAL STYLES ================== */
+
+ .container {
+    width: var(--container-width-lg);
+    margin: 0 auto; 
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+    font-weight: 600;
+ }
+
+ /* h1 {
+    font-size: 3.5rem;
+ } */
+
+ section {
+    margin-top: 8rem;
+ }
+
+section > h2,
+section > h5 {
+    text-align: left;
+    color: var(--color-white);
+ }
+
+ section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+ }
+
+ .text-light {
+    color: var(--color-light);
+ }
+
+ a {
+    color: var(--color-white);
+    transition: var(--transition);
+ }
+
+ a:hover {
+    color: var(--color-primary);
+ }
+
+ .btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-bg);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 3px solid var(--color-white);
+    transition: var(--transition);
+ }
+
+ .btn:hover{
+    background-color: transparent;
+    color: var(--color-white);
+ 
+ }
+
+ .btn-primary{
+    background-color: var(--color-white);
+    color: var(--color-bg);
+ }
+ /* img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+ } */
+
+ /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ================ */
+ @media screen and (max-width: 1024px){
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+ }
+  /* ========================== MEDIA QUERIES (SMALL DEVICES) ================ */
+ @media screen and (max-width: 600px){
+    .container {
+        width: var(--container-width-sm);
+    }
+    section{
+        margin-top: 2rem;
+    }
+ }
