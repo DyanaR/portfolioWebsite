@@ -40,11 +40,18 @@ const Container = styled.div`
   }
   @media screen  and (max-width: 500px){
     h1{
-      font-size: 2rem;
+      font-size: 1.7rem;
       padding-bottom: 1.2rem;
     }
   }
-  
+  @media screen and (max-width: 750px){
+      .container{
+     padding: 2rem 2.7rem;
+    }}
+  @media screen and (max-width: 420px){
+      .container{
+     padding: 2rem 1rem;
+    }}
 `;
 
 export default Contact

@@ -21,8 +21,12 @@ const Container = styled.div`
     padding: 2rem;
     text-align: center;
     font-size: .8rem;
-    
   }
+  @media screen and (max-width: 420px){
+      footer{
+     padding: 2rem 1rem;
+     font-size: .7rem
+    }}
   
 `;
 export default Footer

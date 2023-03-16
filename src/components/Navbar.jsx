@@ -102,7 +102,7 @@ nav {
         background-color: var(--color-primary);
         top: 0;
         right: -100%;
-        z-index:2;
+        z-index: 2;
         transition: 1s ease;
     }
     ${'' /* blur body when active */}

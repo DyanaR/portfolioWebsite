@@ -93,7 +93,14 @@ const Container = styled.div`
     .skills-list{
     grid-template-columns: repeat(2,150px);
   }}
-
+  @media screen and (max-width: 750px){
+      .container{
+     padding: 2rem 2.7rem;
+    }}
+  @media screen and (max-width: 420px){
+      .container{
+     padding: 2rem 1rem;
+    }}
   `;
 
 

@@ -164,7 +164,7 @@ const Container = styled.div`
     grid-template-columns: repeat(12, 1fr);
     -webkit-box-align: center;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
   .projectContentFlipped{
     grid-column: 1 / 9;
@@ -316,6 +316,13 @@ const Container = styled.div`
       opacity: .2;
   }
   }
+  @media screen and (max-width: 800px){
+    .projectContent {
+      z-index: 1;
+    }
+    .projectContentFlipped{
+      z-index: 1;
+    }}
   @media screen and (max-width: 750px){
       .container{
      padding: 2rem 2.7rem;
@@ -326,6 +333,16 @@ const Container = styled.div`
   @media screen and (max-width: 420px){
       .container{
      padding: 2rem 1rem;
-    }}
+    }
+    img {
+    height: 24rem;
+  }
+  .projectContent{
+    box-shadow: 0 10px 30px -15px rgba(255, 255, 255, 0.1);
+  }
+  .projectContentFlipped{
+    box-shadow: 0 10px 30px -15px rgba(255, 255, 255, 0.1);
+  }
+  }
 
 `;

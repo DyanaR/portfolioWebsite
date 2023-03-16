@@ -76,7 +76,7 @@ const Container = styled.div`
       display: none;
     }
     h4 {
-      max-width: 60rem;
+      ${'' /* max-width: 60rem; */}
     }}
 
   @media screen and (max-width: 1438px){
@@ -97,6 +97,9 @@ const Container = styled.div`
     }
     h2{
       font-size: 1.5rem;
+    }
+    h4{
+      max-width: 22rem;
     }}
 
   @media screen and (max-width: 420px){
