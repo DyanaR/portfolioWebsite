@@ -57,7 +57,7 @@ const Projects = () => {
               <div>
                 <h4 className='projectOverline'>Featured Project</h4>
                 <h3 className='projectTitle'> 
-                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Resturant Website</a>
+                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Food Recipes API</a>
                 </h3>
                 <div className='projectDescription'>
                 <h4 className='desc'>I created this website using HTML and CSS that searches 
@@ -271,7 +271,7 @@ const Container = styled.div`
     -webkit-box-pack: center;
     justify-content: center;
     height: 100%;
-    z-index: 5;
+    z-index: 2;
     box-shadow: 0 10px 30px -15px rgba(255, 255, 255, 0.2);
   }
   .projectContentFlipped{
@@ -283,7 +283,7 @@ const Container = styled.div`
     -webkit-box-pack: center;
     justify-content: center;
     height: 100%;
-    z-index: 5;
+    z-index: 2;
     box-shadow: 0 10px 30px -15px rgba(255, 255, 255, 0.2);
   }
   .projectDescription{
@@ -316,13 +316,13 @@ const Container = styled.div`
       opacity: .2;
   }
   }
-  @media screen and (max-width: 800px){
+  ${'' /* @media screen and (max-width: 800px){
     .projectContent {
       z-index: 1;
     }
     .projectContentFlipped{
       z-index: 1;
-    }}
+    }} */}
   @media screen and (max-width: 750px){
       .container{
      padding: 2rem 2.7rem;

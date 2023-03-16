@@ -14,7 +14,7 @@ const socials = () => {
             <a href="https://github.com/DyanaR" target='_blank' rel="noreferrer"><FiGithub/></a>
             <a href={Resume1} target='_blank' rel="noreferrer"><HiOutlineDocumentText/></a>
             <a href="mailto: dyanarahhal98@gmail.com" target='_blank' rel="noreferrer"><MdOutlineEmail/></a>
-        </div>
+        </div> 
     </socials>
     </Container>
   )
