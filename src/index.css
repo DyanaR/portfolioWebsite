@@ -8,7 +8,6 @@
     text-decoration: none;
 }
 
-/* css variables to avoid repeatition, can be reusued */
 :root{ 
     --color-white: #fff;
     --color-primary: rgb(255,147,1);
@@ -27,7 +26,6 @@
 
 html {
     scroll-behavior: smooth;
-    
 }
 
 ::-webkit-scrollbar{
@@ -57,14 +55,6 @@ body{
     font-weight: 600;
  }
 
- /* h1 {
-    font-size: 3.5rem;
- } */
-
- section {
-    margin-top: 8rem;
- }
-
 section > h2,
 section > h5 {
     text-align: left;
@@ -90,6 +80,7 @@ section > h5 {
  }
 
  .btn{
+   background-color: var(--color-white);
     width: max-content;
     display: inline-block;
     color: var(--color-bg);
@@ -105,18 +96,8 @@ section > h5 {
  .btn:hover{
     background-color: transparent;
     color: var(--color-white);
- 
  }
 
- .btn-primary{
-    background-color: var(--color-white);
-    color: var(--color-bg);
- }
- /* img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
- } */
 
  /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ================ */
  @media screen and (max-width: 1024px){

@@ -12,8 +12,8 @@ const Header = () => {
       <div className='right'>
         {/* <h4 className='intro'>Hi, my name is</h4> */}
         <h1>Dyana Rahhal</h1>
-        <h2>Software Engineer</h2>
-        <h4 className='text-light'>I'm a software developer, I enjoy transforming concepts into reality through digital experiences.</h4>
+        <h2>Full-Stack Developer</h2>
+        <h4 className='text-light'>I enjoy transforming concepts into reality through digital experiences.</h4>
         <a href={Resume1} target='_blank' rel="noreferrer" className="Resume"><button className='btn'>Resume</button> </a>
         </div>
         <div className='left'>
