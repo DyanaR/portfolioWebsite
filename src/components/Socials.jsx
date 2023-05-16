@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import {SlSocialLinkedin} from 'react-icons/sl'
 import {FiGithub} from 'react-icons/fi'
-import Resume1 from '..//assets/Resume1.pdf'
+import Resume2 from '..//assets/Resume2.pdf'
 import {HiOutlineDocumentText} from 'react-icons/hi'
 import {MdOutlineEmail} from 'react-icons/md'
 
@@ -12,7 +12,7 @@ const socials = () => {
         <div className='socials__container'>
             <a href='https://www.linkedin.com/in/dyana-rahhal-b39667227/' target='_blank' rel="noreferrer"><SlSocialLinkedin/></a>
             <a href="https://github.com/DyanaR" target='_blank' rel="noreferrer"><FiGithub/></a>
-            <a href={Resume1} target='_blank' rel="noreferrer"><HiOutlineDocumentText/></a>
+            <a href={Resume2} target='_blank' rel="noreferrer"><HiOutlineDocumentText/></a>
             <a href="mailto: dyanarahhal98@gmail.com" target='_blank' rel="noreferrer"><MdOutlineEmail/></a>
         </div> 
     </socials>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import background from '..//assets/background.png'
-import Resume1 from '..//assets/Resume1.pdf'
+import Resume2 from '..//assets/Resume2.pdf'
 
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
         <h1>Dyana Rahhal</h1>
         <h2>Full-Stack Developer</h2>
         <h4 className='text-light'>I enjoy transforming concepts into reality through digital experiences.</h4>
-        <a href={Resume1} target='_blank' rel="noreferrer" className="Resume"><button className='btn'>Resume</button> </a>
+        <a href={Resume2} target='_blank' rel="noreferrer" className="Resume"><button className='btn'>Resume</button> </a>
         </div>
         <div className='left'>
          <img className='background' src={background} alt='background'/>
