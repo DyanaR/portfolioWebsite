@@ -38,7 +38,6 @@ const About = () => {
         <li>SQL</li>
         <li>Python</li>
         <li>Git</li>
-        <li>Arduino</li>
 
       </ul>
       </div>
