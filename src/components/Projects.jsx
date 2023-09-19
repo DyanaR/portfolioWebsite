@@ -17,6 +17,43 @@ const Projects = () => {
         <h1>.projects()</h1>
 
       {/* Project 1 */}
+      <ul>
+          <li className='projectBox'>
+            <div className='projectContentFlipped'>
+              <div>
+                <h4 className='projectOverline'>Featured Project</h4>
+                <h3 className='projectTitle'> 
+                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Netflix Clone</a>
+                </h3>
+                <div className='projectDescription'>
+                <h4 className='desc'> A Netflix clone built on React.js which uses firebase for authentication. For 
+                backend routing I used Express and the database is managed using MongoDB.
+                  </h4>                
+                  </div>
+                <ul className='projectTechListFlipped'>
+                  <li>React</li>
+                  <li>Firebase</li>
+                  <li>MongoDB</li>
+                  <li>Redux Toolkit</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                </ul>
+                <div className='projectLinksFlipped'>
+                  <a href='https://github.com/DyanaR/NetflixClone' target='_blank' rel="noreferrer"><FiGithub/></a>
+                </div>
+              </div>
+            </div>
+            <div className='projectImageFlipped'>
+              <a className='aImg' href='https://github.com/DyanaR/NetflixClone' target='_blank' rel="noreferrer">
+                <div className='imgageWrapper'>
+                  <img src={netflixClone} alt='netflixClone'></img>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        {/* Project 2 */}
         <ul>
           <li className='projectBox'>
             <div className='projectContent'>
@@ -55,44 +92,46 @@ const Projects = () => {
           </li>
         </ul>
 
-        {/* Project 2 */}
+        
+
+        {/* Project 3 */}
         <ul>
           <li className='projectBox'>
             <div className='projectContentFlipped'>
               <div>
                 <h4 className='projectOverline'>Featured Project</h4>
                 <h3 className='projectTitle'> 
-                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Netflix Clone</a>
+                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Food Recipes API</a>
                 </h3>
                 <div className='projectDescription'>
-                <h4 className='desc'> A Netflix clone built on React.js which uses firebase for authentication. For 
-                backend routing I used Express and the database is managed using MongoDB.
+                <h4 className='desc'>I created this website using HTML and CSS that searches 
+                  for meals based on specific ingredients. It utilizes API from 
+                  themealdb and Vanilla JavaScript to generate recipes based on user input.
                   </h4>                
                   </div>
                 <ul className='projectTechListFlipped'>
-                  <li>React</li>
-                  <li>Firebase</li>
-                  <li>MongoDB</li>
-                  <li>Redux Toolkit</li>
-                  <li>Node.js</li>
-                  <li>Express</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>API</li>
                 </ul>
                 <div className='projectLinksFlipped'>
-                  <a href='https://github.com/DyanaR/NetflixClone' target='_blank' rel="noreferrer"><FiGithub/></a>
+                  <a href='https://github.com/DyanaR/FoodRecipesAPI' target='_blank' rel="noreferrer"><FiGithub/></a>
+                  <a href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer"><FiExternalLink/></a>
                 </div>
               </div>
             </div>
             <div className='projectImageFlipped'>
-              <a className='aImg' href='https://github.com/DyanaR/NetflixClone' target='_blank' rel="noreferrer">
+              <a className='aImg' href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">
                 <div className='imgageWrapper'>
-                  <img src={netflixClone} alt='netflixClone'></img>
+                  <img src={foodRecipesAPI} alt='foodRecipesAPI'></img>
                 </div>
               </a>
             </div>
           </li>
         </ul>
 
-        {/* Project 3 */}
+        {/* Project 4 */}
         <ul>
           <li className='projectBox'>
             <div className='projectContent'>
@@ -125,43 +164,6 @@ const Projects = () => {
               <a className='aImg' href='https://gyrostogo.onrender.com/' target='_blank' rel="noreferrer">
                 <div className='imgageWrapper'>
                   <img src={toDoList} alt='todolist'></img>
-                </div>
-              </a>
-            </div>
-          </li>
-        </ul>
-
-        {/* Project 4 */}
-        <ul>
-          <li className='projectBox'>
-            <div className='projectContentFlipped'>
-              <div>
-                <h4 className='projectOverline'>Featured Project</h4>
-                <h3 className='projectTitle'> 
-                <a  href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">Food Recipes API</a>
-                </h3>
-                <div className='projectDescription'>
-                <h4 className='desc'>I created this website using HTML and CSS that searches 
-                  for meals based on specific ingredients. It utilizes API from 
-                  themealdb and Vanilla JavaScript to generate recipes based on user input.
-                  </h4>                
-                  </div>
-                <ul className='projectTechListFlipped'>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>API</li>
-                </ul>
-                <div className='projectLinksFlipped'>
-                  <a href='https://github.com/DyanaR/FoodRecipesAPI' target='_blank' rel="noreferrer"><FiGithub/></a>
-                  <a href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer"><FiExternalLink/></a>
-                </div>
-              </div>
-            </div>
-            <div className='projectImageFlipped'>
-              <a className='aImg' href='https://foodrecipes-9yzh.onrender.com/' target='_blank' rel="noreferrer">
-                <div className='imgageWrapper'>
-                  <img src={foodRecipesAPI} alt='foodRecipesAPI'></img>
                 </div>
               </a>
             </div>

@@ -7,16 +7,10 @@ const About = () => {
     <about>
     <div id='about' className="container about__container">
       <h1>.about()</h1>
-      <p>Hi there! My name is Dyana, and I'm a third-year Computer Science major at the 
-      University of Texas at Arlington. Ever since I was young, I've been fascinated with 
+      <p>Ever since I was young, I've been fascinated with 
       technology and the possibilities it holds. As I've progressed through my studies, I've 
       developed a particular interest in software engineering, where I can use my programming 
       skills to create innovative solutions to real-world problems. 
-      <br></br>
-      <br></br>
-      In addition to my coursework, I've also built several projects, where I've had 
-      the opportunity to work on putting my skills to the test. I'm proficient in several 
-      programming languages, including Java, Python, and C++, and I'm always eager to learn more.
       <br></br>
       <br></br>
       Outside of my studies, I enjoy staying active by hiking and playing basketball, and I also 
